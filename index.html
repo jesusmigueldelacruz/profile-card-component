@@ -9,33 +9,38 @@
       href="./images/favicon-32x32.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div>
-      <section class="cover-page">
-        <img src="./images/bg-pattern-card.svg" alt="cover-page" />
-      </section>
-      <section>
-        <h1>Victor Crest <span>26</span></h1>
-        <p>London</p>
-      </section>
-      <section class="metrics">
+    <div class="card">
+      <img
+        class="photo"
+        src="./images/image-victor.jpg"
+        alt="foto-de-victor-crest"
+      />
+      <h1 class="name">Victor Crest <span class="age">26</span></h1>
+      <p class="place">London</p>
+      <div class="stats">
         <div>
-          <div>
-            <h2>80 K</h2>
-            <p>Followers</p>
-          </div>
-          <div>
-            <h2>803 K</h2>
-            <p>Likes</p>
-          </div>
-          <div>
-            <h2>1.4 K</h2>
-            <p>Photos</p>
-          </div>
+          <h2 class="amount">80K</h2>
+          <p class="class">Followers</p>
         </div>
-      </section>
+        <div>
+          <h2 class="amount">803K</h2>
+          <p class="class">Likes</p>
+        </div>
+        <div>
+          <h2 class="amount">1.4K</h2>
+          <p class="class">Photos</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
